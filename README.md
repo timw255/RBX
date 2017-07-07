@@ -75,7 +75,7 @@ function onClick(e) {
       	// Be careful...'update()' will reset all fields that it doesn't receive the value of
       	// that's why the 'SELECT' above should include all fields you don't want to be reset.
 		// It's possible to remove this requirement by further parsing what's returned when the [internal] pageData call is made.
-      	return record.update(15030);
+      	return record.update(15030); // the `pageId` parameter corresponds to the 'Edit' page for the object
     })
     .then(() => console.log('done!'));
 }
