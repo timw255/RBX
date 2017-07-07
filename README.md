@@ -1,4 +1,4 @@
-#RBX
+# RBX
 
 An opinionated implementation of the Rollbase AJAX Queries API that uses promises. It adds some additional functionality to make querying and working with results a lot easier (IMHO).
 
