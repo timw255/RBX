@@ -72,7 +72,7 @@ function onClick(e) {
       	record.setField('name', kendo.guid());
       	record.setField('Sample_Image', files[0].rawFile);
 
-      	// Be careful...'update()' will reset all fields that it doesn't recieve the value of
+      	// Be careful...'update()' will reset all fields that it doesn't receive the value of
       	// that's why the 'SELECT' above should include all fields you don't want to be reset.
 		// It's possible to remove this requirement by further parsing what's returned when the [internal] pageData call is made.
       	return record.update(15030);
